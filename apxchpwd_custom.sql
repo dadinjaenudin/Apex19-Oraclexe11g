@@ -4,7 +4,7 @@ begin
     wwv_flow_fnd_user_int.create_or_update_user( p_user_id  => NULL,
                                                  p_username => 'ADMIN',
                                                  p_email    => 'ADMIN',
-                                                 p_password => 'Mutiara2no4__' );
+                                                 p_password => 'P@ssword' );
  
 	DBMS_XDB.sethttpport(8181);
 	DBMS_XDB.setlistenerlocalaccess(FALSE);
